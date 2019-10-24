@@ -1,2 +1,2 @@
 # portfolio
-this is portfolio project
+Wasim Patel portfolio.
