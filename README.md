@@ -8,3 +8,7 @@ Wasim Patel portfolio.
 ### Node.js
 ### Visual Studio Code
 ### Brew
+### HTML5
+### CSS
+### Font Awesome
+### Google Fonts
