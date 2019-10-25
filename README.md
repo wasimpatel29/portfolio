@@ -16,3 +16,6 @@ Wasim Patel portfolio.
 ### AWS Route
 ### AWS Cloudfront
 ### AWS Codebuild
+### IPython
+### Boto3
+### Python
