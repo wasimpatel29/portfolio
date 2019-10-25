@@ -6,7 +6,7 @@ phases:
         nodejs: 10
   build:
     commands:
-      - nodejs --version
+      - echo nothing to do yet
 artifacts:
   files:
     - index.html
