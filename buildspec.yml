@@ -1,9 +1,12 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+        node: 10
   build:
-    command:
-      - echo nothing to do yet
+    commands:
+      - node --version
 artifacts:
   files:
     - index.html
