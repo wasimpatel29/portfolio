@@ -12,3 +12,7 @@ Wasim Patel portfolio.
 ### CSS
 ### Font Awesome
 ### Google Fonts
+### AWS S3
+### AWS Route
+### AWS Cloudfront
+### AWS Codebuild
