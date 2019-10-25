@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-        node: 10
+        nodejs: 10
   build:
     commands:
-      - node --version
+      - nodejs --version
 artifacts:
   files:
     - index.html
