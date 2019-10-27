@@ -5,10 +5,9 @@ import zipfile
 import mimetypes
 
 def lambda_handler(event, context):
+    sns = boto3.resource('sns')
+    topic = sns.Topic('arn:aws:sns:us-east-1:201986536062:deployPortfolioTopic')
     try:
-        sns = boto3.resource('sns')
-        topic = sns.topic('arn:aws:sns:us-east-1:201986536062:deployPortfolioTopic')
-
         s3 = boto3.resource('s3')
         portfolio_bucket = s3.Bucket('portfolio.wasimpatel.com')
         build_bucket = s3.Bucket('portfoliobuild.wasimpatel.com')
@@ -27,5 +26,6 @@ def lambda_handler(event, context):
         topic.publish(Subject = "Portfolio deployed", Message = "Portfolio deployed successfully!")
     except:
         topic.publish(Subject = "Portfolio deployed failed", Message = "Failed to deploy portfolio")
-    return 'body': json.dumps('Hello from Lambda!')
+        
+    return 'Hello from Lambda!'
     
