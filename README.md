@@ -19,3 +19,5 @@ Wasim Patel portfolio.
 ### IPython
 ### Boto3
 ### Python
+### AWS Lambda
+### AWS SNS
