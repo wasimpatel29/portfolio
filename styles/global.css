@@ -1,0 +1,105 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {    
+    margin: 0;
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+    /* color: #ffffff; */
+}
+
+.wrapper {
+    margin: auto;
+    max-width: rem-calc(1200);
+}
+
+/* main, header, section, aside, footer {    
+    display: block;
+    margin: 0;
+    border: 1px solid #000000;
+    color: #ffffff;
+} */
+
+/* main {
+    background: #000000;
+}
+
+.header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #d22b1f;
+} */
+
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    background: #129a22;
+}
+
+.sidebar {
+    flex: 0 1 300px;
+    border: 1px solid #000000;
+    background: #673ab7;
+} */
+
+.footer {
+    border: 1px solid #000000;
+    /* background: #616161; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .color--skyBlue {
+    color: rgb(52, 152, 219);
+  }
+
+  .section__heading--largest {
+    float: left;
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+
+  .section--social {
+    float: right;
+    line-height: 1rem;
+    margin-right: 1rem;
+  }
+
+  .socialWrapper:last-child .social {
+    margin-right: 0;
+  }
+  
+  .socialWrapper {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .social {
+    margin-right: 0.25rem;
+  }
+
+  .overflow--auto {
+    overflow: auto;
+  }
