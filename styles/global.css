@@ -106,4 +106,5 @@ h4 {
 
 .none {
     list-style-type: none;
+    padding-inline-start: 0;
 }
